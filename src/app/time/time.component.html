@@ -1,0 +1,26 @@
+<div class="text-center" style="margin-top:50px">
+  <div class="form-signin w-100 m-auto" style="background-color: #CCCC;border-radius: 20px;">
+    <h3>Zaman Ayarla</h3>
+    <div class="row row-cols-4">
+      <div class="col">
+        <label>Ay</label>
+        <input style="max-width: 50px;" id="ay" placeholder="0">
+      </div>
+      <div class="col">
+        <label>Gün</label>
+        <input style="max-width: 50px;" id="gun" placeholder="0">
+      </div>
+      <div class="col">
+        <label>Saat</label>
+        <input style="max-width: 50px;" id="saat" placeholder="0">
+      </div>
+      <div class="col">
+        <label>Dakika</label>
+        <input type="text" id="dakika" name="dakika" #dakika1 style="max-width: 50px;" id="dakika" placeholder="0">
+      </div>
+      <div class="mt-4" style="width: 100%;text-align: center;">
+        <button (click)="putTime(dakika1.value)" class="btn btn-secondary" style="width: 50%;height: 50px;">Zaman Ayarla</button>
+      </div>
+    </div>
+  </div>
+</div>
